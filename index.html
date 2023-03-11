@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .set0{
+             background-color: black;
+             color: white;
+             display: flex;
+             flex-direction: row;
+
+        }
+        .set1{
+            margin:10px;
+        }
+        .set2{
+            display: flex;
+            flex-direction: row;
+        }
+        .set3{
+            margin-top: 20px;
+        }
+        .set4{
+            margin-left: 80%;
+        }
+        form{
+            background-color: slategrey;
+            width:80%;
+            margin-left: 10%;
+        }
+       
+        footer{
+            width: 100%;
+            background-color: black;
+            color: blanchedalmond;
+            height: 100px;
+            
+        }
+        #base{
+            margin-top:2px;   
+            padding-top: 40px; 
+            padding-left: 550px;       
+        }
+    </style>
+</head>
+<body>
+    <div class="set0">
+        <div class="set1">
+        <img src="flag.png" width="200px" height="200px">
+        </div>
+        <div class="set1">
+        <h1>राष्ट्रीय मतदान सेवा डेमो पोर्टल</h1>
+        </div>
+        <div class="set1">
+        <h1>NATIONAL VOTERS' SERVICES DEMO  PORTAL </h1>
+        </div>
+        <div class="set1">
+        <img src="vote.png" width="200px" height="200px">
+        </div>
+    </div>
+    <div class="set2">
+        <div class="set3">
+        <button type="menu">A+</button>
+        <button type="menu">A-</button>
+        </div>
+        <div class="set4">
+        <label>Select Language:</label>
+        <select>
+            <option>Hindi</option>
+            <option>English</option>
+        </select>
+        </div>
+    </div>
+    <h2>Note: Fields marked with asterisks ( * ) are mandatory</h2>
+    <form>
+           <div>
+               <h3>Type 6</h3>
+               <h3>[See rule 13(1) and 26]</h3>
+               <p>Application for inclusion of name in the electoral roll for the first time due to the transfer of voter or any other constituency from any one constituency</p>
+        
+               <p>In service</p>
+               <p>Electoral Registration Officer,</p>
+               <label>State*</label>
+               <select>
+               <option>Select</option>
+               </select>
+               <label>District*</label>
+               <select>
+                <option>Select</option>
+               </select>
+               <br>
+               <label for="">Legislative Assembly / Parlimentary constituency *</label>
+               <select>
+                <option>Select</option>
+               </select>
+               
+            </div>
+           <p>I request that my name be included in electoral rolls for all the aforesaid areas.</p>
+            <div>
+                <div>
+                <input type="radio" name="gender-choice" value="choice-1">
+                <label for="gender-male">First time voter</label>
+                </div>
+                <div>
+                <input type="radio" name="gender-choice" value="choice-2">
+                <label for="gender-male">Due to transfer from other meeting areas.</label>
+                </div>
+            </div>
+            <p>Below are specifications in support of my claim to be included in the electoral rolls.</p>
+            <div>
+                <h3>Mandatory specifications</h3>
+                   <div>
+                     <label for="first-name">(A) Name * </label>
+                     <input type="text" name="first-name"  required>
+                     <input type="text" name="Last-name" required>
+                   </div>
+                    <div>
+                        <label for="first-name">(B) Surname (if any) * </label>
+                     <input type="text" name="first-name"  required>
+                     <input type="text" name="Last-name" required>
+                    </div>
+                    <div>
+                        <label for="first-name">(C) Name of the applicant's relative *</label>
+                     <input type="text" name="first-name" placeholder="sumit" required>
+                     <input type="text" name="Last-name" placeholder="kumar" required>
+                    </div>
+                    <div>
+                        <label for="first-name">Nickname of the applicant's relative *</label>
+                     <input type="text" name="first-name"  required>
+                     <input type="text" name="Last-name" required>
+                    </div>
+                    <div>
+                        <label for="first-name">(D) Type of the relationship * </label>
+                        <select> name="first-name">
+                            <option value="number">Select</option>
+                         </select>   
+                    </div>
+                    <div>
+                        <div>
+                        <input type="radio" name="gender-choice" value="choice-1">
+                        <label for="gender-male">(E) Age [on January 1 of the current calender] * </label>
+                        <input type="text" placeholder="2019">
+                        <select> name="first-name">
+                            <option value="number">Year</option>
+                         </select>
+                         <select> name="first-name">
+                            <option value="number">Month</option>
+                         </select>
+                        </div>
+                        <p>Or</p>
+                        <div>
+                        <input type="radio" name="gender-choice" value="choice-2">
+                        <label for="gender-male"> (F) Date of birth (in the form of day/ month/ year) (if known) *</label>
+                            Date:<input type="date" name="date"> 
+                        </div>
+                      </div>
+                      <br>
+                      <div>
+                        <label for="gender-male">(G) Applicant's gender *</label>
+                        <select> name="first-name">
+                            <option value="number">Select</option>
+                            <option value="number">Male</option>
+                            <option value="number">Female</option>
+                         </select>
+                      </div>
+            </div>
+            <div>
+                <h2>(H) Current address, whose applicant is nominally resident</h2>
+                <div>
+                    <label for="first-name">House no. * </label>
+                    <input type="text" name="first-name"  required>
+                    <input type="text" name="Last-name"  required>
+                  </div>
+                   <div>
+                       <label for="first-name">Street / area / location * </label>
+                    <input type="text" name="first-name" required>
+                    <input type="text" name="Last-name"  required>
+                   </div>
+                   <div>
+                       <label for="first-name">City / Village: *</label>
+                    <input type="text" name="first-name"  required>
+                    <input type="text" name="Last-name" required>
+                   </div>
+                   <div>
+                       <label for="first-name">Post Office: * </label>
+                    <input type="text" name="first-name"  required>
+                    <input type="text" name="Last-name" required>
+                   </div>
+                   <div>
+                    <label for="first-name">Pin Code * </label>
+                    <input type="text" name="first-name"  required>
+                   </div>
+                   <div>
+                    <label for="gender-male">State / Union Territory *</label>
+                    <select> name="first-name">
+                        <option value="number">Select</option>
+                    </select>     
+                   </div>
+                   <div>
+                    <label for="gender-male">District *</label>
+                    <select> name="first-name">
+                        <option value="number">Select</option>
+                    </select>
+                   </div>
+                   <br>
+                   <hr>
+                   <label for="first-name">Family / Neighbour Epic No.</label>
+                   <input type="text" name="first-name" required>
+                   <hr>
+
+            </div>
+            <div>
+                <h2>Optional specialties</h2>
+                <p>(T) Disability (if any)</p>
+                <div>
+                <input type="checkbox" name="agree">
+                <label for="agree">Visual impairment   </label>
+                <input type="checkbox" name="agree">
+                <label for="agree">Speech and hearing impairment   </label>
+                <input type="checkbox" name="agree">
+                <label for="agree">Motion disabling   </label>
+                <input type="checkbox" name="agree">
+                <label for="agree">other  </label>
+                <input type="text" required>
+                </div>
+                <div>
+                    <label>(Th) Email ID (optional)</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label>(D) mobile number (optional)   +91</label>
+                    <input type="text" required>
+                </div>
+                
+            </div>
+            <div>
+                <h2>Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB) <a href="#">List of supported documents </a></h2>
+                <div>
+                    <label for="avatar">Your photo *</label>
+                    <input type="file" id="avatar1" name="avatar" accept="image/png, image/jpeg">
+                    <br>
+                    <label for="avatar">Age proof *</label>
+                    <br>
+                    <input type="file" id="avatar2" name="avatar" accept="image/png, image/jpeg">
+                    <label for="avatar">Document type *</label>
+                    <select> name="first-name">
+                        <option value="number">Select</option>
+                     </select>
+                     <br>
+                    <label for="avatar">Address proof *</label>
+                    <br>
+                    <input type="file" id="avatar3" name="avatar" accept="image/png, image/jpeg">
+                    <label for="avatar">Document type *</label>
+                    <select> name="first-name">
+                        <option value="number">Select</option>
+                     </select>
+                </div>
+            </div>
+            <div>
+                <h2>Declaration</h2>
+                <p>I declare I declare that according to my best knowledge and belief</p>
+                <p>I am a citizen of India and of my birth;</p>
+                <label>City / Village:     </label>
+                <input type="text" required>
+                <br>
+                <label>Select state *</label>
+                <select> name="first-name">
+                    <option value="number">Select</option>
+                 </select>
+                 <label>District *</label>
+                <select> name="first-name">
+                    <option value="number">Select</option>
+                 </select>
+                 <br>
+                 Date:<input type="date" name="date"> 
+                 <p>(ii) I am a nominally resident in the address given in the above (date, month, year) above;</p>
+                 <br>
+                 <p>I have not applied to include my name in the electoral roll for any other constituency;</p>
+                 <div>
+                    <input type="radio" name="gender-choice" value="choice-1">
+                    <label for="gender-male">(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency
+                    </div>
+                    <p>Or</p>
+                    <div>
+                    <input type="radio" name="gender-choice" value="choice-2">
+                    <label for="gender-male">My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then I request that it be removed from that electoral roll. Go.
+                    </label>
+                 </div>
+                 <br>
+                 <hr>
+                 <div>
+                     <label>Location *   </label>
+                     <input type="text" required>
+                     Date:<input type="date" name="date"> 
+                 </div>
+                 <p>I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31</p>
+                     <label>Captcha </label>  
+                     <img src="captcha.png" id="captchaimg" width="80px" height="20px">
+                     <input id="6_letters_code" name="6_letters_code" type="text">        
+            </div>
+            <button type="reset">Reset</button>  
+            <button type="submit">Submit</button>  
+            
+    </form>
+    <footer>
+        <p id="base">Copyright © 2019 Suven Consultants and Technology Pvt. Ltd.</p>
+    </footer>
+</body>
+</html>
